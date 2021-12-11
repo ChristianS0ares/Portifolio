@@ -1,0 +1,136 @@
+body {
+  background: #061d38;
+}
+
+.cabecalhoPrincipal .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1376px;
+  height: 56px;
+  margin-left: 32px;
+  margin-top: 32px;
+}
+
+.cabecalhoPrincipal-logo {
+  /* Logo */
+  width: 145px;
+  height: 34.05px;
+  margin-left: 0px;
+  margin-top: 12px;
+}
+
+.cabecalhoPrincipal-barraPesquisa {
+  /* Text field */
+  /* Auto Layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  margin-left: 18%;
+  margin-right: 16%;
+  top: 0%;
+  bottom: 0%;
+}
+
+.cabecalhoPrincipal-fotoPerfil {
+  /* author */
+  /* Auto Layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px;
+
+  left: 92.3%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  border-radius: 8px;
+}
+
+.conteudoPrincipal-menu {
+  /* Menu */
+
+  position: absolute;
+  width: 51px;
+  height: 18px;
+  left: 32px;
+  top: 128px;
+
+  /* Sidebar title */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+
+  /* Neutral/$white */
+
+  color: #ffffff;
+}
+
+.conteudoPrincipal-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 70px;
+  margin-left: 13px;
+  width: 170px;
+  height: 130px;
+  color: white;
+}
+
+.conteudoPrincipal-nav-codeIcon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.conteudoPrincipal-nav-codeIcon-list {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.conteudoPrincipal-nav-codeIcon-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.conteudoPrincipal-nav-communityIcon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.conteudoPrincipal-nav-communityIcon-list {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.conteudoPrincipal-nav-communityIcon-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin-left: 10px;
+}
